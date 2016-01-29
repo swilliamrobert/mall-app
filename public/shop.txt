@@ -1,0 +1,4 @@
+KLCC,13,12A
+Midvalley,3,123C
+TimeSquare,4,65F
+PutraMall,5,32F

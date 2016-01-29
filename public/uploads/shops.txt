@@ -1,0 +1,8 @@
+KLCC,13,"18-H"
+Midvalley,3,"213-C"
+TimeSquare,4,"182-D"
+PutraMall,5,"98-E"
+PutraMall1122,5,"98-E"
+Hainfa,2,"128-E"
+TESCOCCCC,8,19-F
+JESCOCCCCC,9,12-F
