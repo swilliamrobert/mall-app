@@ -51,8 +51,8 @@ class ShopController extends Controller
 	public function update(Request $request,$shop_id)
 	{
 	 
-		$shop = Shop::find($shop_id);
-		$shop->name = $request->name;
+		  $shop = Shop::find($shop_id);
+		  $shop->name = $request->name;
 	    $shop->floor = $request->floor;
 	    $shop->lot_no = $request->lot_no;
 	    $shop->save();
@@ -65,9 +65,9 @@ class ShopController extends Controller
     */
     public function download()
     {
-       $shops = Shop::all();
-       $filename = "shop.txt";
-	   $handle = fopen($filename, 'w+');
+      $shops = Shop::all();
+      $filename = "shop.txt";
+	    $handle = fopen($filename, 'w+');
 	    foreach($shops as $row) {
 	        fputcsv($handle, array($row['name'], $row['floor'], $row['lot_no']));
 	    }
@@ -83,7 +83,7 @@ class ShopController extends Controller
     * @return Response::Download as txt file
     */
    public function upload() {
-	 $filename = Input::file('file');
+	  $filename = Input::file('file');
      if (File::exists($filename)) {
           try
             {
