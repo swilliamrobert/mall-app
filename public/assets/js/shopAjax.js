@@ -33,7 +33,7 @@ $(document).ready(function(){
         $('#myModalUpload').modal('show');
     });
 
-    //display modal form for upload new shop
+    //form submit for upload
     $('#btn-uploadfrm').click(function(){
          $( "#UploadShops" ).submit();
     });
