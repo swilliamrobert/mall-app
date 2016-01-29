@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Shopping Mall Direcctory</title>
+    <title>Shopping Mall Directory</title>
 
     <!-- Load Bootstrap CSS -->
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
