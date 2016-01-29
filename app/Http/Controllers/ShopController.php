@@ -11,7 +11,7 @@ use App\Shop;
 use File;
 class ShopController extends Controller
 {
-	/**
+    /**
     * Display a listing of the resource.
     *
     * @return Response
